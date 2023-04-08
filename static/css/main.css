@@ -423,7 +423,7 @@
     background-color: rgba(0, 0, 0, .2);
 }
 
-button.share {
+.share {
     font-family: inherit;
     font-size: 18px;
     background: linear-gradient(to bottom, #4dc7d9 0%,#66a6ff 100%);
@@ -436,32 +436,32 @@ button.share {
     border-radius: 25px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
-  }
+}
   
-  button.share:hover {
+.share:hover {
     transform: translateY(-3px);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-  }
+}
   
-  button.share:active {
+.share:active {
     transform: scale(0.95);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  }
+}
   
-  button.share span {
+.share span {
     display: block;
     margin-left: 0.4em;
     transition: all 0.3s;
-  }
+}
   
-  button.share svg {
+.share svg {
     width: 18px;
     height: 18px;
     fill: white;
     transition: all 0.3s;
-  }
-  
-  button.share .svg-wrapper {
+}
+
+.share .svg-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -471,14 +471,14 @@ button.share {
     background-color: rgba(255, 255, 255, 0.2);
     margin-right: 0.5em;
     transition: all 0.3s;
-  }
-  
-  button.share:hover .svg-wrapper {
+}
+
+.share:hover .svg-wrapper {
     background-color: rgba(255, 255, 255, 0.5);
-  }
-  
-  button:hover svg {
+}
+
+.share:hover svg {
     transform: rotate(45deg);
-  }
+}
   
   
